@@ -1,0 +1,60 @@
+{
+  "header": {
+    "uuid": "68df1a25-da69-40ac-aca9-9fdfab31728b",
+    "source_creation_date_time": "2013-02-05T07:25:00+01:00",
+    "schema_id": {
+      "namespace": "org.md2k.watch.fossil_sport",
+      "name": "gyroscope",
+      "version": "1.0"
+    },
+    "timestamp_source": "fossil_sport_with_uuid",
+    "modality": "sensed",
+    "acquisition_rate": {
+      "value": 50,
+      "unit": "Hz"
+    },
+    "external_datasheets": [
+      {
+        "datasheet_reference": "https://datasheet.lcsc.com/szlcsc/1912111437_Bosch-Sensortec-BMI120_C437657.pdf"
+      }
+    ],
+    "data_description": [
+      "x-axis",
+      "y-axis",
+      "z-axis"
+    ],
+    "units": [
+      "degrees/second",
+      "degrees/second",
+      "degrees/second"
+    ]
+  },
+  "body": [
+    {
+      "gyroscope": {
+        "value": [
+          321.2,
+          103.3,
+          0.00123
+        ]
+      },
+      "effective_time_frame": {
+        "time": "07:12:40.123456",
+        "day_of_week": "sunday"
+      }
+    },
+    {
+      "gyroscope": {
+        "value": [
+          100.2,
+          103.3,
+          0.00123
+        ]
+      },
+      "effective_time_frame": {
+        "time": "07:12:40.200452",
+        "day_of_week": "sunday"
+      }
+    }
+  ]
+}

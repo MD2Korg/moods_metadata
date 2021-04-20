@@ -1,0 +1,60 @@
+{
+  "header": {
+    "uuid": "7c100568-cdb7-48bb-bbee-d096ec72de0a",
+    "source_creation_date_time": "2013-02-05T07:25:00+01:00",
+    "schema_id": {
+      "namespace": "org.md2k.watch.fossil_sport",
+      "name": "accelerometer",
+      "version": "1.0"
+    },
+    "timestamp_source": "fossil_sport_with_uuid",
+    "modality": "sensed",
+    "acquisition_rate": {
+      "value": 50,
+      "unit": "Hz"
+    },
+    "external_datasheets": [
+      {
+        "datasheet_reference": "https://datasheet.lcsc.com/szlcsc/1912111437_Bosch-Sensortec-BMI120_C437657.pdf"
+      }
+    ],
+    "data_description": [
+      "x-axis",
+      "y-axis",
+      "z-axis"
+    ],
+    "units": [
+      "g",
+      "g",
+      "g"
+    ]
+  },
+  "body": [
+    {
+      "accelerometer": {
+        "value": [
+          0.3,
+          0.5,
+          0.954
+        ]
+      },
+      "effective_time_frame": {
+        "time": "07:12:40.123456",
+        "day_of_week": "sunday"
+      }
+    },
+    {
+      "accelerometer": {
+        "value": [
+          0.2,
+          0.545631,
+          0.2346613
+        ]
+      },
+      "effective_time_frame": {
+        "time": "07:12:40.200452",
+        "day_of_week": "sunday"
+      }
+    }
+  ]
+}

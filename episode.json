@@ -1,0 +1,88 @@
+{
+  "header": {
+    "uuid": "ba11d69f-523f-4b83-9b70-a1296b754e44",
+    "source_creation_date_time": "2020-12-14T08:25:00-06:00",
+    "schema_id": {
+      "namespace": "org.md2k.watch.fossil_sport",
+      "name": "episode",
+      "version": "1.0"
+    },
+    "description": "Referenced input streams are provided with 15 minutes before and after the selected stress or non-stress event",
+    "timestamp_source": {
+      "model": "fossil_sport_with_uuid",
+      "time_source": "system_time | queried time"
+    },
+    "modality": "sensed | self report",
+    "external_datasheets": [
+      {
+        "datasheet_type": "study",
+        "datasheet_reference": "https://moods.md2k.org/"
+      }
+    ],
+    "input_streams": [
+      {
+        "stream_name": "org.md2k.watch.fossil_sport.accelerometer",
+        "stream_uuid": "7c100568-cdb7-48bb-bbee-d096ec72de0a"
+      },
+      {
+        "stream_name": "org.md2k.watch.fossil_sport.ppg",
+        "stream_uuid": "4b4adae9-b611-4762-843a-0be9fce36afc"
+      }
+    ],
+    "annotation_streams": [
+      {
+        "confounder_stream": [
+          "activity--org.md2k.watch--fossil_watch_sport"
+        ]
+      }
+    ]
+  },
+  "body": {
+    "effective_time_frame": {
+      "time_interval": {
+        "start_date_time": "2020-12-14T08:00:00-06:00",
+        "end_date_time": "2020-12-14T08:10:00-06:00"
+      }
+    },
+    "classification": {
+      "value": "Stressed | Not stressed | Unsure | Loose Sensor | ..."
+    },
+    "density": {
+      "value": 0.6502341
+    },
+    "imputed_time_intervals": [
+      {
+        "temporary_description": "Time intervals (minute windows) the stress likelihood was imputed."
+      },
+      {
+        "time_interval": {
+          "start_date_time": "2020-12-14T08:01:00-06:00",
+          "end_date_time": "22020-12-14T08:02:00-06:00",
+          "reason": "missing | poor data quality | confounded by activity"
+        }
+      },
+      {
+        "time_interval": {
+          "start_date_time": "22020-12-14T08:03:00-06:00",
+          "end_date_time": "2020-12-14T08:04:00-06:00",
+          "reason": "missing | poor data quality | confounded by activity"
+        }
+      }
+    ],
+    "confidence": {
+      "value": 0.75
+    },
+    "uncertainity": {
+      "value": "uncertainity_value"
+    },
+    "user_rating": {
+      "value": "Not stressed | Probably stressed | Unsure | Probably not stressed | Not stressed"
+    },
+    "user_context": {
+      "value": "Home | Work | <CLASSIFIED USER LABEL BASED ON ONTOLOGY>"
+    },
+    "user_generated": {
+      "value": "True | False"
+    }
+  }
+}

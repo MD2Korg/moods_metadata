@@ -1,0 +1,44 @@
+{
+  "header": {
+    "uuid": "4b4adae9-b611-4762-843a-0be9fce36afc",
+    "source_creation_date_time": "2013-02-05T07:25:00+01:00",
+    "schema_id": {
+      "namespace": "org.md2k.watch.fossil_sport",
+      "name": "ppg",
+      "version": "1.0"
+    },
+    "timestamp_source": "fossil_sport_with_uuid",
+    "modality": "sensed",
+    "acquisition_rate": {
+      "value": 103,
+      "unit": "Hz"
+    },
+    "external_datasheets": [
+      {
+        "datasheet_reference": "https://www.pixart.com/_getfs.php?tb=product&id=26&fs=ck2_fs_en"
+      }
+    ],
+    "data_description": "PPG channel 1",
+    "unit": "None"
+  },
+  "body": [
+    {
+      "ppg": {
+        "value": 1237985793.0123
+      },
+      "effective_time_frame": {
+        "time": "07:12:40.123456",
+        "day_of_week": "sunday"
+      }
+    },
+    {
+      "ppg": {
+        "value": 1237943793.0123
+      },
+      "effective_time_frame": {
+        "time": "07:12:40.200452",
+        "day_of_week": "sunday"
+      }
+    }
+  ]
+}
