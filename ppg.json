@@ -15,7 +15,7 @@
     },
     "external_datasheets": [
       {
-        "datasheet_reference": "https://www.pixart.com/_getfs.php?tb=product&id=26&fs=ck2_fs_en"
+        "datasheet_reference": "https://www.pixart.com/_getfs.php?tb=product&id=26&fs=ck2_fs_en",
         "datasheet_description": "PixArt Imaging Inc: PAH8011ET"
       }
     ],
