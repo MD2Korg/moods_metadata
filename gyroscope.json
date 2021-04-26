@@ -19,15 +19,22 @@
         "datasheet_description": "Bosch Sensortec: BMI120"
       }
     ],
-    "data_description": [
-      "x-axis",
-      "y-axis",
-      "z-axis"
-    ],
-    "units": [
-      "degrees/second",
-      "degrees/second",
-      "degrees/second"
+    "data-descriptor": [
+      {
+        "unit": "degrees/second",
+        "type": "float",
+        "name": "x-axis"
+      },
+      {
+        "unit": "degrees/second",
+        "type": "float",
+        "name": "y-axis"
+      },
+      {
+        "unit": "degrees/second",
+        "type": "float",
+        "name": "z-axis"
+      }
     ]
   },
   "body": [
