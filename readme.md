@@ -17,7 +17,7 @@ The included metadata documents (.json) fully describe the data and its meaning.
 
 
 ## Data Structure
-The sensor data is stored within sensor specific folders and numbers according to the associated episode (e.g. data/accelerometer/5467.parquet, data/gyroscope/5467.parquet, data/ppg/5467.parquet) all contain the data associated with episode 5467 in the data/episode.parquet file.  This episode file contains a table of all the episodes and associated metadata as described in the episode.json file.
+The sensor data is stored within sensor specific folders and numbers according to the associated episode (e.g. `data/accelerometer/5467.parquet`, `data/gyroscope/5467.parquet`, `data/ppg/5467.parquet`) all contain the data associated with episode 5467 in the `data/episode.parquet` file.  This episode file contains a table of all the episodes and associated metadata as described in the `episode.json` file.
 
 
 # Processing Data
