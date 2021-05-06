@@ -24,42 +24,25 @@
       }
     ],
     "data_description": [
-      "x-axis",
-      "y-axis",
-      "z-axis"
+      {
+          "name": "x-axis",
+          "description": "foo bar",
+          "unit": "g"
+      },
+      {
+          "name": "y-axis",
+          "description": "foo bar",
+          "unit": "g"
+      },
+      {
+          "name": "z-axis",
+          "description": "foo bar",
+          "unit": "g"
+      }
     ],
-    "units": [
-      "g",
-      "g",
-      "g"
-    ]
   },
-  "body": [
-    {
-      "accelerometer": {
-        "value": [
-          0.3,
-          0.5,
-          0.954
-        ]
-      },
-      "effective_time_frame": {
-        "time": "07:12:40.123456",
-        "day_of_week": "sunday"
-      }
-    },
-    {
-      "accelerometer": {
-        "value": [
-          0.2,
-          0.545631,
-          0.2346613
-        ]
-      },
-      "effective_time_frame": {
-        "time": "07:12:40.200452",
-        "day_of_week": "sunday"
-      }
-    }
-  ]
+  "data_file": "data/accelerometer/5467.parquet"
+   --> [day_of_week, time, x, y, z]
+   --> [sunday, 07:12:40.123456, 0.3, 0.5, 0.954] (1-byte, 4-bytes (time), 4-bytes, 4-bytes, 4-bytes (double, float))
+   --> [sunday, 07:12:40.123456, 0.2, 0.545631, 0.2346613]
 }
